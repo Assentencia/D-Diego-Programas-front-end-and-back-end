@@ -4,17 +4,25 @@ h1 {
 h2 {
     text-align: center;
 }
-
-
-
+body {
+    background-color: #4fb5dd;
+}
 p {
     color: black;
     font-size: 18px;
 }
 .image_vegeta {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     text-align: center;
+}
+.content_vegeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
 }
 
 
